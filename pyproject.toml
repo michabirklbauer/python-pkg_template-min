@@ -44,7 +44,7 @@ docs = [
 ]
 
 [project.scripts]
-battle = "python_pkg_template:main"
+hello = "python_pkg_template:main"
 
 [project.urls]
 Homepage = "https://github.com/michabirklbauer/python-pkg_template-min"

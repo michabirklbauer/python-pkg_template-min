@@ -9,7 +9,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     Parameters
     ----------
     argv : list or str, or None, default = None
-        Arguments passed to argparse.
+        Arguments passed to 'argparse' or downstream functions.
 
     Returns
     -------
