@@ -21,20 +21,17 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
     "Operating System :: OS Independent",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Development Status :: 5 - Production/Stable"
 ]
 requires-python = ">=3.12"
-dependencies = [
-    "polars>=1.41.2",
-    "pydantic>=2.13.4",
-]
+dependencies = []
 
 [dependency-groups]
 dev = [
-    "pyright>=1.1.411",
     "pytest>=9.1.1",
     "ruff>=0.16.4",
     "ty>=0.0.73",
@@ -50,7 +47,7 @@ docs = [
 battle = "python_pkg_template:main"
 
 [project.urls]
-Homepage = "https://github.com/michabirklbauer/python-pkg_template"
-Documentation = "https://github.com/michabirklbauer/python-pkg_template"
-Repository = "https://github.com/michabirklbauer/python-pkg_template.git"
-Issues = "https://github.com/michabirklbauer/python-pkg_template/issues"
+Homepage = "https://github.com/michabirklbauer/python-pkg_template-min"
+Documentation = "https://github.com/michabirklbauer/python-pkg_template-min"
+Repository = "https://github.com/michabirklbauer/python-pkg_template-min.git"
+Issues = "https://github.com/michabirklbauer/python-pkg_template-min/issues"
