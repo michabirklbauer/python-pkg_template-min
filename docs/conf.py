@@ -64,7 +64,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/michabirklbauer/python-pkg_template",
+            "url": "https://github.com/michabirklbauer/python-pkg_template-min",
             "icon": "fa-brands fa-github",
             "type": "fontawesome",
         },
@@ -81,7 +81,7 @@ html_theme_options = {
 html_context = {
     "github_url": "https://github.com",
     "github_user": "michabirklbauer",
-    "github_repo": "python-pkg_template",
+    "github_repo": "python-pkg_template-min",
     "github_version": "master",
     "doc_path": "docs",
     "default_mode": "auto",
