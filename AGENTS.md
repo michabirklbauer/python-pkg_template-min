@@ -1,10 +1,8 @@
 # Template Repository for Python Packages
 
-A template repository for modern python package development with [uv](https://docs.astral.sh/uv/)
-using [Pydantic](https://pydantic.dev/docs/validation/latest/get-started/) and 
-[Polars](https://pola.rs/).
+A template repository for modern python package development with [uv](https://docs.astral.sh/uv/).
 Linted with [ruff](https://astral.sh/ruff),
-type checked with [ty](https://docs.astral.sh/ty/) and [pyright](https://microsoft.github.io/pyright),
+type checked with [ty](https://docs.astral.sh/ty/),
 and tested with [pytest](https://docs.pytest.org/en/stable/) using
 [GitHub Actions](https://docs.github.com/en/actions).
 
@@ -46,13 +44,9 @@ and tested with [pytest](https://docs.pytest.org/en/stable/) using
 - Avoid the `Any` type unless it makes sense.
 - Make sure to follow [PEP 585](https://peps.python.org/pep-0585/) standard for type annotation.
 - Use `typing.Optional` for optional arguments instead of `X | None`.
-- Prompt the user to select either [ty](https://docs.astral.sh/ty/) or [pyright](https://microsoft.github.io/pyright) for type checking.
 - Run `uv run ty check --config-file ty.toml` to type check all python files with ty.
-- Run `uv run pyright --warnings` to type check all python files with pyright.
 - Make sure to use an up-to-date version of ty, e.g. by running `uv lock --upgrade-package ty`.
-- Make sure to use an up-to-date version of pyright, e.g. by running `uv lock --upgrade-package pyright`.
 - Make sure to follow python naming conventions and code style, e.g. defined via [PEP 8](https://peps.python.org/pep-0008/).
-- Use [Pydantic](https://pydantic.dev/docs/validation/latest/get-started/) for classes as also demonstrated in the `src/python_pkg_template/_character.py` file.
 - Function parameters should ideally be type checked using `isinstance()` or other suitable python type checking methods, do not use the [Typeguard](https://github.com/agronholm/typeguard) library for this purpose unless specifically prompted.
 - Use `logging` for logging state and events of python code.
 - Use `argparse` for any functions that should be executed as scripts to parse commandline arguments.
